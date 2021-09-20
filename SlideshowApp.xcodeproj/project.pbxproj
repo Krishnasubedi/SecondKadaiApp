@@ -13,6 +13,12 @@
 		DE89500B26F289AC004B4C22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE89500926F289AC004B4C22 /* Main.storyboard */; };
 		DE89500D26F289AD004B4C22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE89500C26F289AD004B4C22 /* Assets.xcassets */; };
 		DE89501026F289AD004B4C22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE89500E26F289AD004B4C22 /* LaunchScreen.storyboard */; };
+		DE89501826F28FAA004B4C22 /* cat1.png in Resources */ = {isa = PBXBuildFile; fileRef = DE89501726F28FAA004B4C22 /* cat1.png */; };
+		DE89501A26F28FB1004B4C22 /* cat2.png in Resources */ = {isa = PBXBuildFile; fileRef = DE89501926F28FB1004B4C22 /* cat2.png */; };
+		DE89501C26F28FBA004B4C22 /* cat3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DE89501B26F28FBA004B4C22 /* cat3.jpeg */; };
+		DE89501E26F28FBF004B4C22 /* cat4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE89501D26F28FBF004B4C22 /* cat4.jpg */; };
+		DE89502026F28FC6004B4C22 /* cat5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DE89501F26F28FC6004B4C22 /* cat5.jpeg */; };
+		DEDE6D7026F56026009A79C5 /* DisplayImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDE6D6F26F56026009A79C5 /* DisplayImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		DE89500C26F289AD004B4C22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE89500F26F289AD004B4C22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE89501126F289AD004B4C22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE89501726F28FAA004B4C22 /* cat1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat1.png; sourceTree = "<group>"; };
+		DE89501926F28FB1004B4C22 /* cat2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat2.png; sourceTree = "<group>"; };
+		DE89501B26F28FBA004B4C22 /* cat3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat3.jpeg; sourceTree = "<group>"; };
+		DE89501D26F28FBF004B4C22 /* cat4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat4.jpg; sourceTree = "<group>"; };
+		DE89501F26F28FC6004B4C22 /* cat5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat5.jpeg; sourceTree = "<group>"; };
+		DEDE6D6F26F56026009A79C5 /* DisplayImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,12 @@
 				DE89500326F289AC004B4C22 /* AppDelegate.swift */,
 				DE89500526F289AC004B4C22 /* SceneDelegate.swift */,
 				DE89500726F289AC004B4C22 /* ViewController.swift */,
+				DEDE6D6F26F56026009A79C5 /* DisplayImageViewController.swift */,
+				DE89501726F28FAA004B4C22 /* cat1.png */,
+				DE89501926F28FB1004B4C22 /* cat2.png */,
+				DE89501B26F28FBA004B4C22 /* cat3.jpeg */,
+				DE89501D26F28FBF004B4C22 /* cat4.jpg */,
+				DE89501F26F28FC6004B4C22 /* cat5.jpeg */,
 				DE89500926F289AC004B4C22 /* Main.storyboard */,
 				DE89500C26F289AD004B4C22 /* Assets.xcassets */,
 				DE89500E26F289AD004B4C22 /* LaunchScreen.storyboard */,
@@ -124,8 +142,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE89501826F28FAA004B4C22 /* cat1.png in Resources */,
+				DE89501E26F28FBF004B4C22 /* cat4.jpg in Resources */,
+				DE89502026F28FC6004B4C22 /* cat5.jpeg in Resources */,
+				DE89501A26F28FB1004B4C22 /* cat2.png in Resources */,
 				DE89501026F289AD004B4C22 /* LaunchScreen.storyboard in Resources */,
 				DE89500D26F289AD004B4C22 /* Assets.xcassets in Resources */,
+				DE89501C26F28FBA004B4C22 /* cat3.jpeg in Resources */,
 				DE89500B26F289AC004B4C22 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +162,7 @@
 			files = (
 				DE89500826F289AC004B4C22 /* ViewController.swift in Sources */,
 				DE89500426F289AC004B4C22 /* AppDelegate.swift in Sources */,
+				DEDE6D7026F56026009A79C5 /* DisplayImageViewController.swift in Sources */,
 				DE89500626F289AC004B4C22 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
