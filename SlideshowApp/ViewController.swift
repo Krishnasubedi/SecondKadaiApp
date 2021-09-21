@@ -66,7 +66,7 @@ class ViewController: UIViewController {
         nextBtn.isEnabled = true
         prevBtn.isEnabled = true
         playStopBtn.setTitle("再生", for: .normal)
-        //timer = nil
+        timer = nil
     }
     
       
@@ -96,10 +96,6 @@ class ViewController: UIViewController {
    }
 
     @objc func startSlide(_ timer : Timer){
-        playStopBtn.setTitle("停止", for: .normal)
-        nextBtn.isEnabled = false
-        prevBtn.isEnabled = false
-        
                
         currentImageIndex += 1
         
@@ -109,7 +105,6 @@ class ViewController: UIViewController {
         } else {
             currentImageIndex = 0
         }
-        
     }
     
     @IBAction func startSlideShow(_ sender: Any) {
@@ -117,7 +112,10 @@ class ViewController: UIViewController {
         let displayingImageIndex :Int = currentImageIndex
         
         if self.timer == nil {
-            self.timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(startSlide(_:)), userInfo: nil, repeats: true)
+            playStopBtn.setTitle("停止", for: .normal)
+            nextBtn.isEnabled = false
+            prevBtn.isEnabled = false
+            self.timer = Timer.scheduledTimer(timeInterval: 2.0, target: self, selector: #selector(startSlide(_:)), userInfo: nil, repeats: true)
         }else {
             playStopBtn.setTitle("再生", for: .normal)
             nextBtn.isEnabled = true
